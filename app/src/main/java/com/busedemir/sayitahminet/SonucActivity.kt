@@ -15,7 +15,7 @@ class SonucActivity : AppCompatActivity() {
             textViewSonuc.text="KAZANDINIZ"
             image_sad.setImageResource(R.drawable.happy)
         }else{
-            textViewSonuc.text="KAYBETTİNİZ"
+            textViewSonuc.text="KAYBETTİNİZ GERÇEK SAYI $rastgeleSayı"
             image_sad.setImageResource(R.drawable.sad)
         }
         buttonTekrar.setOnClickListener{
