@@ -20,7 +20,7 @@ class TahminActivity : AppCompatActivity() {
         rastgeleSayı = Random.nextInt(101)
         println("Rastgele Sayimiz $rastgeleSayı")
 
-        Toast.makeText(applicationContext,"1 ile 50 arasında bir sayı var !",Toast.LENGTH_LONG).show()
+        Toast.makeText(applicationContext,"1 ile 100 arasında bir sayı var !",Toast.LENGTH_LONG).show()
 
 
         buttonTahmin.setOnClickListener{
