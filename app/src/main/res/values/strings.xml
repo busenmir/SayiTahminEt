@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SayiTahminEt</string>
+    <string name="yeniden_oynayal_m_m">Yeniden Oynayalım mı ?</string>
+    <string name="haydi_say_y_tahmin_edelim">Haydi Sayıyı Tahmin Edelim😊</string>
 </resources>

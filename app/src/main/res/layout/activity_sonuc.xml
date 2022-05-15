@@ -10,14 +10,14 @@
         android:id="@+id/buttonTekrar"
         android:layout_width="250dp"
         android:layout_height="80dp"
-        android:layout_marginBottom="120dp"
-        android:text="Yeniden Oynayalım mı ? "
+        android:layout_marginTop="91dp"
+        android:text="@string/yeniden_oynayal_m_m"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSonuc" />
 
     <ImageView
         android:id="@+id/image_sad"
@@ -25,9 +25,11 @@
         android:layout_height="190dp"
         android:layout_marginTop="71dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sad" />
+        app:srcCompat="@drawable/sad"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/textViewSonuc"
@@ -35,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="61dp"
         android:text="KAYBETTİNİZ"
+        android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
